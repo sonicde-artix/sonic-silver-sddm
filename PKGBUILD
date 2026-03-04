@@ -13,7 +13,7 @@ groups=(sonicde)
 source=("${pkgver}-${_pkgname}.tag.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
 
 package() {
-  cd "${_pkgname}"
+  cd "${_pkgname}-${pkgver}"
   install -d "$pkgdir/usr/share/sddm/themes"
   cp -rv Sonic-Silver "${pkgdir}/usr/share/sddm/themes"
   cp -rv Sonic-Silver-Light "${pkgdir}/usr/share/sddm/themes"
