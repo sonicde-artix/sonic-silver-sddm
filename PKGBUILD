@@ -4,7 +4,7 @@
 pkgname=sonic-silver-sddm
 _pkgname="${pkgname#*-}"
 pkgver=1.0.0
-pkgrel=4
+pkgrel=5
 pkgdesc="Sonic Silver SDDM Theme (KDE Plasma 6)"
 arch=(x86_64)
 url='https://github.com/Sonic-DE/silver-sddm'
